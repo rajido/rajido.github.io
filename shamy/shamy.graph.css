@@ -22,11 +22,11 @@
     }
 
     .node--source {
-        fill: #2ca02c;
+        fill: #000000;
     }
 
     .node--target {
-        fill: #d62728;
+        fill: #000000;
     }
 
     .link--source,
