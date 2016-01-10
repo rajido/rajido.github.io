@@ -1,0 +1,74 @@
+
+    .node {
+        font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        fill: #bbb;
+    }
+
+    .node:hover {
+        fill: #000;
+    }
+
+    .link {
+        stroke: #bbb;
+        stroke-opacity: .6;
+        fill: none;
+        pointer-events: none;
+    }
+
+    .node:hover,
+    .node--source,
+    .node--target {
+        font-weight: 700;
+    }
+
+    .node--source {
+        fill: #2ca02c;
+    }
+
+    .node--target {
+        fill: #d62728;
+    }
+
+    .link--source,
+    .link--target {
+        stroke-opacity: 1;
+        stroke-width: 2px;
+    }
+
+    .link--source {
+        stroke: #d62728;
+    }
+
+    .link--target {
+        stroke: #2ca02c;
+    }
+
+    .rel-R.link--target, .rel-R.link--source  {
+        stroke: #cc0000;
+    }
+
+    .rel-A.link--target, .rel-A.link--source  {
+        stroke: #000000;
+    }
+
+    .rel-C.link--target, .rel-C.link--source {
+        stroke: #e69138;
+    }
+
+    .rel-I.link--target, .rel-I.link--source {
+        stroke: #f1c232;
+        stroke-width: 1px;
+        stroke-opacity: .4;
+    }
+
+    .rel-B.link--target, .rel-B.link--source {
+        stroke: #38761d;
+    }
+
+    .rel-D.link--target, .rel-D.link--source {
+        stroke: #0000ff;
+    }
+
+    .rel-I {
+        stroke-opacity: .2;
+    }

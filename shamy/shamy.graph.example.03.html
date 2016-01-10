@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="shamy.graph.css" type="text/css" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div id="shamy-graph"></div>
+    <div id="shamy-gss">
+        <iframe
+                width="2000"
+                height="400"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://docs.google.com/spreadsheets/d/1q0by2MmqwtmttEbbaZ_u-q5dCKrZDQnch2uiV_gA5BI/pubhtml?gid=1030514237&amp;single=true&amp;widget=true&amp;headers=false">
+        </iframe>
+    </div>
+    <!-- JAVASCRIPTS -->
+    <script type="text/javascript" src="shamy.gss.js"></script>
+    <script type="text/javascript">
+        /** GSS data **/
+        var gssData = null;
+        function getData(json) { gssData = json.feed.entry; }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+
+            /** GSS RACI data rage coordinates **/
+            var raciDataLoc = {start:{col:4,row:4},end:{col:30,row: 106}};
+
+            /** Get shamyData **/
+            var shamyData = shamy.gss.getProcessedData(gssData,raciDataLoc);
+            //console.log(JSON.stringify(shamyData));
+
+            /** Display shamyData **/
+            var size = {"diameter":2000, "labelRadius":400};
+            shamy.graph.display(shamyData, "#shamy-graph", size);
+        });
+    </script>
+    <script src="https://spreadsheets.google.com/feeds/cells/1q0by2MmqwtmttEbbaZ_u-q5dCKrZDQnch2uiV_gA5BI/1/public/values?alt=json-in-script&callback=getData"></script>
+    <script type="text/javascript" src="d3.v3.min.js"></script>
+    <script type="text/javascript" src="shamy.graph.js"></script>
+
+</body>
+</html>

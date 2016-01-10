@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <!-- JAVASCRIPTS -->
+    <script src="shamy.gss.js"></script>
+    <script type="text/javascript">
+
+        /** GSS data **/
+        var gssData = null;
+        function getData(json) { gssData = json.feed.entry; }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+
+            /** GSS RACI data rage coordinates **/
+            var raciDataLoc = {start:{col:4,row:4},end:{col:15,row: 14}};
+
+            /** Get shamyData **/
+            var shamyData = shamy.gss.getProcessedData(gssData,raciDataLoc);
+            console.log(JSON.stringify(shamyData));
+
+        });
+
+    </script>
+    <script src="https://spreadsheets.google.com/feeds/cells/1q0by2MmqwtmttEbbaZ_u-q5dCKrZDQnch2uiV_gA5BI/1/public/values?alt=json-in-script&callback=getData"></script>
+
+</body>
+</html>
