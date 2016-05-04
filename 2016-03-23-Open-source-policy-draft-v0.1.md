@@ -1,6 +1,8 @@
 # DRAFT: Open source policy 0.1
 March 23, 2016
+
 Scope? System developer that want to convince managers or PIs? 
+
 ## The basics
 1. Open source your project unless you cannot (open by default)
     1. Work to mitigate fears from others in your project about open-sourcing
@@ -39,6 +41,7 @@ Scope? System developer that want to convince managers or PIs?
         19. Don't assume you know why someone did something, check why
         20. Examples are here: [contributor covenant](http://contributor-covenant.org/)
     9. Use existing tools to help manage your software, rather than creating your own (see link on OSS-Watch website, [http://oss-watch.ac.uk/resources/communitytools](http://oss-watch.ac.uk/resources/communitytools))
+
 ## Developing the community
 4. Work to build a community around your software
     10. Document what your software does!
@@ -51,13 +54,13 @@ Scope? System developer that want to convince managers or PIs?
         25. For instance hackathons, tutorials, workshops
     13. "Piggy-back" on existing events that your community attends
         26. e.g. BOSC, ISBE
-    14.  
 5. Publish your software in a DOI-issuing repository
     15. You should publish under the same license
     16. You should get a DOI for each major release
         27. And versions associated with publications coming from your project
     17. Zenodo and FigShare both enable DOIs for software [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/) 
     18. Advertise the DOI at the top level of your repository and in a CITATION file
+    
 ## Striving for the meritocratic bazaar
 6. Become more open as your project matures 
     19. Be transparent about your current governance model
