@@ -1,11 +1,3 @@
----
-title: Open source policy draft v0.1
-layout: post
-author: rajido
-permalink: /open-source-policy-draft-v0.1/
-source-id: 1Z7Dj4AUknZXZ3dgrWbXHygkogcsPooDsgkLuaIS_8IY
-published: true
----
 DRAFT: Open source policy 0.1
 
 Scope? System developer that want to convince managers or PIs? 
@@ -233,16 +225,4 @@ Scope? System developer that want to convince managers or PIs?
 * "I'll have to pay for the cost of infrastructure"
 
     * There are many providers who allow you to use their resources for free if you are an open source project
-
-Timeline
-
-* Put it in GitHub (create an organisation for "SoftDev4LifeSciences/SoftDev4LS")
-
-* Reformat for prettiness
-
-* Link in references, preferably with examples from life sciences
-
-* Release under CC-BY license 
-
-    * Where?
 
