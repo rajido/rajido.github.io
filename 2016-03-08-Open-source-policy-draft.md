@@ -1,5 +1,5 @@
-# DRAFT: Open source policy 0.1
-March 23, 2016
+# DRAFT: Open source policy 0.2
+March 08, 2016
 
 Scope? System developer that want to convince managers or PIs? 
 
