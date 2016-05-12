@@ -1,6 +1,10 @@
 # DRAFT: Open source policy 0.2
+May 12, 2016
+
 Scope? System developer that want to convince managers or PIs? 
+
 **Please make sure you're logged into Google, otherwise we cannot attribute your contributions.**
+
 ## The basics
 1. Open source your project unless you cannot (open by default)
     1. Unless there is a compelling reason not to do so, provide the source code in a publicly accessible source code repository as early as possible
