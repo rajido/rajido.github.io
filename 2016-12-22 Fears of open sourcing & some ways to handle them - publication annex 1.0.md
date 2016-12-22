@@ -1,18 +1,11 @@
----
-title: Fears of open sourcing & some ways to handle them - publication annex
-layout: post
-author: rafael
-permalink: /fears-of-open-sourcing-&-some-ways-to-handle-them---publication-annex/
-source-id: 1EvhqaDlC1u2iVfqGv-lvPGOgTM5Gc0zRbe70OhaBcqM
-published: true
----
 # Fears of open sourcing & some ways to handle them
+Dec 22, 2016
 
 Although the scientific community is used to collaboration, competition is an established practice and drives many decisions on how to share information. It has been a trend to keep data and any other research artefact like software private even after research results get published. Thus it is not surprising many developers involved in research are victims of the fears of releasing software as Open Source [(Stodden, n.d.)](https://paperpile.com/c/Gzhyvy/EYsB). Though part of the fear might be justified we believe Open Source Software comes with more advantages than disadvantages, and some fears arise from a misunderstanding of the risks involved. In this appendix we aim to expose some of the common fear scenarios related to open sourcing and some ways to handle them.
 
 ## Principal Investigator Perspective
 
-**My group's software (unique methodology, specificity, knowledge) gives our research a competitive edge that will be lost if we released our code in the ****open****.**
+**My group's software (unique methodology, specificity, knowledge) gives our research a competitive edge that will be lost if we released our code in the open.**
 
 * Research is far more than the software that facilitates it, and the software usually lags behind the underlying research ideas
 
@@ -22,7 +15,7 @@ Although the scientific community is used to collaboration, competition is an es
 
 **It'll be impossible to Open Source software which we have developed in collaboration with companies / industry because it will be too complicated to resolve the legal issues**
 
-* You could consult an IP specialist such as OSS-Watch [("OSS Watch - Independent Expert Advice on Open Source Software" 2016)](https://paperpile.com/c/Gzhyvy/WdPz),[ ](https://paperpile.com/c/Gzhyvy/WdPz)o[r](https://paperpile.com/c/Gzhyvy/WdPz) [a](https://paperpile.com/c/Gzhyvy/WdPz) [s](https://paperpile.com/c/Gzhyvy/WdPz)e[r](https://paperpile.com/c/Gzhyvy/WdPz)v[i](https://paperpile.com/c/Gzhyvy/WdPz)c[e](https://paperpile.com/c/Gzhyvy/WdPz) [r](https://paperpile.com/c/Gzhyvy/WdPz)e[s](https://paperpile.com/c/Gzhyvy/WdPz)i[d](https://paperpile.com/c/Gzhyvy/WdPz)e[n](https://paperpile.com/c/Gzhyvy/WdPz)t[ ](https://paperpile.com/c/Gzhyvy/WdPz)a[t](https://paperpile.com/c/Gzhyvy/WdPz) [y](https://paperpile.com/c/Gzhyvy/WdPz)o[u](https://paperpile.com/c/Gzhyvy/WdPz)r[ ](https://paperpile.com/c/Gzhyvy/WdPz)i[n](https://paperpile.com/c/Gzhyvy/WdPz)s[t](https://paperpile.com/c/Gzhyvy/WdPz)i[t](https://paperpile.com/c/Gzhyvy/WdPz)u[t](https://paperpile.com/c/Gzhyvy/WdPz)i[o](https://paperpile.com/c/Gzhyvy/WdPz)n[ ](https://paperpile.com/c/Gzhyvy/WdPz)t[h](https://paperpile.com/c/Gzhyvy/WdPz)a[t](https://paperpile.com/c/Gzhyvy/WdPz) [d](https://paperpile.com/c/Gzhyvy/WdPz)e[a](https://paperpile.com/c/Gzhyvy/WdPz)l[s](https://paperpile.com/c/Gzhyvy/WdPz) [w](https://paperpile.com/c/Gzhyvy/WdPz)i[t](https://paperpile.com/c/Gzhyvy/WdPz)h[ ](https://paperpile.com/c/Gzhyvy/WdPz)I[P](https://paperpile.com/c/Gzhyvy/WdPz) [i](https://paperpile.com/c/Gzhyvy/WdPz)s[s](https://paperpile.com/c/Gzhyvy/WdPz)u[e](https://paperpile.com/c/Gzhyvy/WdPz)s[,](https://paperpile.com/c/Gzhyvy/WdPz) [i](https://paperpile.com/c/Gzhyvy/WdPz)f[ ](https://paperpile.com/c/Gzhyvy/WdPz)y[o](https://paperpile.com/c/Gzhyvy/WdPz)u[r institution ](https://paperpile.com/c/Gzhyvy/WdPz)h[as](https://paperpile.com/c/Gzhyvy/WdPz) [o](https://paperpile.com/c/Gzhyvy/WdPz)n[e](https://paperpile.com/c/Gzhyvy/WdPz)
+* You could consult an IP specialist such as OSS-Watch [("OSS Watch - Independent Expert Advice on Open Source Software" 2016)](https://paperpile.com/c/Gzhyvy/WdPz), or a service resident at your institution that deals with IP issues, if your institution has one
 
 * Using an OSI-approved license will make it easier as commercial IP legal departments recognise them
 
