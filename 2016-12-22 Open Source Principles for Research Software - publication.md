@@ -1,12 +1,5 @@
----
-title: Open Source Principles for Research Software - publication
-layout: post
-author: rafael
-permalink: /open-source-principles-for-research-software---publication/
-source-id: 1r_J1D2Lum1up5XXejCCBVKoPkGuMeYI11qgFAojRBAE
-published: true
----
-[[TOC]]
+# DRAFT: Open Source Principles for Research Software - publication - 1.0
+Dec 22, 2016
 
 # Authors
 
