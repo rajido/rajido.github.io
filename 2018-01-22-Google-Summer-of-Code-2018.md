@@ -1,18 +1,8 @@
 ---
+layout: default
 title: Google Summer of Code 2018
-layout: post
-author: rajido
-permalink: /google-summer-of-code-2018/
-source-id: 1_i2vqUfCy1laVbslVR6kjaRLIUN8Y2nqQIEPT8G68gg
-published: true
 ---
 Google Summer of Code 2018
-
-[https://summerofcode.withgoogle.com/](https://summerofcode.withgoogle.com/) 
-
-Application deadline: 17:00 GMT on Tuesday 23 January 2018Deadline to contribute to this document: 14:00 GMT on Monday 22 January 2018 
-
-[[TOC]]
 
 ## Bioschemas
 
@@ -53,8 +43,6 @@ The projects proposed within this document are designed to help our community ex
 * Sarala Wimalaratne
 
 ## Project Ideas
-
-*Please list and define below your ideas. At the end of the document you can find a template with the sections to be completed for each idea. For more information and advice on how to define a project idea check the **[GSoC guid*e](https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list)*.*
 
 ### Bioschemas Common Crawl
 
@@ -343,36 +331,3 @@ The Journal Article Tag Suite (JATS) is an XML format used to describe scientifi
 #### References
 
 * [https://jats.nlm.nih.gov/](https://jats.nlm.nih.gov/)
-
-## Template for project ideas
-
-Copy the template below if you want to describe a new project idea. More information about the content of a project idea can be found in the [GSoC Mentor guide](https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list).
-
-### [Project title]
-
-[Optional subtitle: one short sentence description]
-
-#### Description
-
-[2-5 sentences]
-
-#### Expected outcomes
-
-* …
-
-#### Skills
-
-* ...
-
-#### Mentors
-
-* ...
-
-#### Rate difficulty
-
-* [Easy, Medium or Hard]
-
-#### References
-
-* [This is optional, add if you have any relevant references]
-
